@@ -1,0 +1,75 @@
+.menu_open .ishidden{
+   display: none;
+}
+
+.menu_open{
+    width: 254px;
+    height: 1020px;
+    background-color:#E17992;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.menu_open__header{
+    padding: 10%;
+    text-align: right;
+}
+
+.menu_header__close{
+    background-color: #E17992;
+    border: 0px;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.button_modal{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.button_modal:hover{
+    background-color: #D41342;
+    color: white;
+}
+
+.main__header{
+    padding: 0% 10% 7%;
+    text-align: center;
+}
+
+
+.main__buy{
+    width: 186px;
+    height: 44px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: 0px;
+    color:#D41443;
+   
+}
+.options{
+    padding: 4% 7%;
+    height: 42px;
+}
+
+.options>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.options>a:hover{
+    color: #D41443;
+}
+.options>a:hover::after{
+    display: flex;
+    width: 100px;
+    height: 0px;
+    cursor: pointer;
+}
+
+
+.options:nth-child(2n+1){
+    border-top: 1px solid #E18298;
+    border-bottom: 1px solid #E18298;
+}
+
